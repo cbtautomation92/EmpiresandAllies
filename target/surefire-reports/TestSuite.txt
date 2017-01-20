@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 135.369 sec <<< FAILURE! - in TestSuite
+defaultHomePage(com.EmpiresAndAllies.scripts.HomePage)  Time elapsed: 40.01 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/sikuli/script/Screen
+	at com.EmpiresAndAllies.scripts.HomePage.defaultHomePage(HomePage.java:26)
+Caused by: java.lang.ClassNotFoundException: org.sikuli.script.Screen
+	at com.EmpiresAndAllies.scripts.HomePage.defaultHomePage(HomePage.java:26)
+
+tearDown(com.EmpiresAndAllies.scripts.HomePage)  Time elapsed: 40.011 sec  <<< FAILURE!
+java.lang.NullPointerException
+

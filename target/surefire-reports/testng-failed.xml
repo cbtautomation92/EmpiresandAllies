@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.EmpiresAndAllies.library.TestngListener"/>
+    <listener class-name="com.kirwa.nxgreport.listners.NXGTestListner"/>
+  </listeners>
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.EmpiresAndAllies.scripts.HomePage">
+        <methods>
+          <include name="defaultHomePage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.EmpiresAndAllies.scripts.HomePage -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->
